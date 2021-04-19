@@ -5,12 +5,9 @@ title: About
 featuredImage: https://ucarecdn.com/730e5891-7212-4a7c-806d-71e1c0f105b3/
 subtitle: Our mission is YOU.
 section1: >-
-  ## This is a container component
+  ## Improving Quality of Life
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
-
-
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  Jereme Richardson started 50+Fitness to improve the lives of people over fifty through promoting health. This gym is perfect for seniors who want guidance on building fitness to improve their life for decades to come. Located in the heart of Nampa, 50+Fitness is a gym dedicated to giving seniors a private, expert, and tailored training session.
 section2: >-
   ## You can use videos, images and text.
 
