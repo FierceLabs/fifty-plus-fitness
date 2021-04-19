@@ -14,14 +14,7 @@ export const ComponentsPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  section1,
-  section2,
-  video,
-  videoPoster,
-  videoTitle,
-  accordion,
-  body,
-  gallery
+  section1
 }) => (
   <main>
     <PageHeader
@@ -64,10 +57,6 @@ export const pageQuery = graphql`
         video
         videoPoster
         videoTitle
-        accordion {
-          title
-          description
-        }
       }
     }
   }
