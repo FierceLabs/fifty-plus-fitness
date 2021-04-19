@@ -4,7 +4,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
 import Footer from './Footer'
-import GithubCorner from './GithubCorner'
+import '@fontsource/open-sans'
+import '@fontsource/montserrat'
+// import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
@@ -22,32 +24,13 @@ export default ({ children, meta, title }) => {
               image
             }
           }
-          allPosts: allMarkdownRemark(
-            filter: { fields: { contentType: { eq: "postCategories" } } }
-            sort: { order: DESC, fields: [frontmatter___date] }
-          ) {
-            edges {
-              node {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
-            }
-          }
         }
       `}
       render={data => {
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
           subNav = {
-            posts: data.allPosts.hasOwnProperty('edges')
-              ? data.allPosts.edges.map(post => {
-                  return { ...post.node.fields, ...post.node.frontmatter }
-                })
-              : false
+            posts: false
           }
 
         return (
@@ -73,7 +56,7 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
+            {/* <GithubCorner url="https://github.com/thriveweb/yellowcake" /> */}
 
             <Nav subNav={subNav} />
 

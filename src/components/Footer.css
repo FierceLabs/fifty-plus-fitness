@@ -1,7 +1,37 @@
 .footer {
-  padding: 2rem 0;
+  padding: 8rem 0;
   background: var(--lightGrey);
   font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.company-name {
+  font-size: 30px;
+  font-family: var(--font-secondary);
+  font-weight: bolder;
+}
+
+.address-container {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+
+.address {
+  font-size: 24px;
+  font-family: var(--font-secondary);
+}
+
+.consul.address {
+  font-weight: bolder;
 }
 
 .footer a {

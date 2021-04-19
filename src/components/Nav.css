@@ -10,7 +10,7 @@
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 10rem;
 }
 
 .Nav--Links {
@@ -34,11 +34,13 @@
 }
 
 .NavLink {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  margin-left: 3rem;
   display: block;
-  font-weight: 500;
+  font-weight: 900;
   transition: color 0.2s, border-bottom-color 0.2s;
-  color: inherit;
+  color: #3b3b3b;
+  font-family: var(--font-secondary);
   text-decoration: none;
   border-bottom: 2px solid;
   border-bottom-color: transparent;

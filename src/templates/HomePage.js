@@ -4,6 +4,10 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import Promote from '../components/Promote'
+import FullWidth from '../components/FullWidth'
+import Services from '../components/Services'
+import Trainer from '../components/Trainer'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -14,12 +18,23 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
-    <section className="section">
+    <section>
+      <Promote />
+    </section>
+    <section>
+      <FullWidth />
+    </section>
+    <section>
+      <Services />
+    </section>
+    <section>
+      <Trainer />
+    </section>
+    {/* <section className="section">
       <div className="container">
         <Content source={body} />
       </div>
-    </section>
+    </section> */}
   </main>
 )
 

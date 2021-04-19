@@ -1,0 +1,35 @@
+.trainer {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.trainer-image-container,
+.trainer-content {
+  display: flex;
+  flex: 1;
+}
+
+.trainer-content {
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.trainer-title {
+  text-align: center;
+}
+
+.trainer-image-container {
+  height: 600px;
+  background-image: url(/images/trainer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.trainer-content {
+  width: 100%;
+  flex-direction: column;
+}

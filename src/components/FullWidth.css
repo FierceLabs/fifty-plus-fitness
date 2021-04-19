@@ -1,0 +1,33 @@
+.full-width {
+  background-color: #3b3b3b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-content {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  flex: 1;
+  color: #fff;
+  background-color: #3b3b3b;
+  padding: 100px;
+}
+
+h2.full-width-title {
+  color: #fff;
+  text-align: center;
+}
+
+.full-width-image-container {
+  display: flex;
+  flex: 1;
+  height: 600px;
+  width: 500px;
+  background-image: url(/images/gym.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,107 @@
+.services-content {
+  padding: 100px;
+}
+
+h2.services-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 60px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10 {
+  background-color: teal;
+  height: 200px;
+  width: 200px;
+}
+
+.img-1 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2 {
+  background-image: url(/images/strength.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-3 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-4 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-5 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-6 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-7 {
+  background-image: url(/images/pressure.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-8 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-9 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-10 {
+  background-image: url(/images/weightloss.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -21,14 +21,12 @@ const PageHeader = ({
           resolutions="large"
           src={backgroundImage}
           alt={title}
-          size="cover"
+          size="contain"
         />
       )}
       <div className="container relative">
         <h1 className="PageHeader--Title">{title}</h1>
-        {subtitle && (
-          <Content className="PageHeader--Subtitle" src={subtitle} />
-        )}
+        {subtitle && <p className="PageHeader--Subtitle">{subtitle}</p>}
       </div>
     </div>
   )
