@@ -34,6 +34,7 @@ h2.services-title {
   background-color: teal;
   height: 200px;
   width: 200px;
+  margin-bottom: 20px;
 }
 
 .img-1 {
@@ -51,28 +52,28 @@ h2.services-title {
 }
 
 .img-3 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/flexibility.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-4 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/jointPain.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-5 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/fall.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-6 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/type2.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,21 +87,21 @@ h2.services-title {
 }
 
 .img-8 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/Choles.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-9 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/Osteo.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-10 {
-  background-image: url(/images/weightloss.jpeg);
+  background-image: url(/images/preop.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
