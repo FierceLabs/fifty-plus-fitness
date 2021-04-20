@@ -8,8 +8,8 @@ address: 314 12th Ave S. Nampa, ID 83651
 phone: 208-546-7001
 email: example@example.com
 locations:
-  - lat: "-27.9654732"
-    lng: "153.2432449"
+  - lat: "43.5768066"
+    lng: "-116.564201"
     mapLink: https://goo.gl/maps/RrWjfSNkeKn21xKL9
 meta:
   description: This is a meta description.
