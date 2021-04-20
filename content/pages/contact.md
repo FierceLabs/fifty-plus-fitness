@@ -2,15 +2,15 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: https://ucarecdn.com/adc8f8b4-bb91-47b0-aacd-9602e7e31531/
 subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
+address: 314 12th Ave S. Nampa, ID 83651
+phone: 208-546-7001
 email: example@example.com
 locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
-    mapLink: ''
+  - lat: "43.5768066"
+    lng: "-116.564201"
+    mapLink: https://goo.gl/maps/RrWjfSNkeKn21xKL9
 meta:
   description: This is a meta description.
   title: Contact Page
