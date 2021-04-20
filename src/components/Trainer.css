@@ -14,6 +14,7 @@
 .trainer-content {
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 0 100px;
 }
 
@@ -32,4 +33,29 @@
 .trainer-content {
   width: 100%;
   flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .trainer-image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .trainer {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .trainer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .trainer-content {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
 }

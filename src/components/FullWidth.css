@@ -8,6 +8,7 @@
 
 .full-width-content {
   display: flex;
+  text-align: center;
   flex-direction: column;
   background-color: aqua;
   flex: 1;
@@ -30,4 +31,25 @@ h2.full-width-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .full-width-image-container {
+    display: none;
+  }
+  .full-width-content {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .full-width {
+    padding: 40px 20px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .full-width-content {
+    padding: 0;
+  }
 }

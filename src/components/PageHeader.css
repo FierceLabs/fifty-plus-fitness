@@ -48,11 +48,12 @@ h1.PageHeader--Title {
 @media (max-width: 600px) {
   .PageHeader {
     padding: 7rem 0;
+    justify-content: center;
   }
   .PageHeader-large {
     padding: 12.5rem 0;
   }
-  .PageHeader--Title {
-    font-size: 6rem;
+  h1.PageHeader--Title {
+    font-size: 4rem;
   }
 }

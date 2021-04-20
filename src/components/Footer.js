@@ -14,6 +14,7 @@ export default () => (
           <div className="title">
             <span className="company-name">50+Fitness</span>
             <br />
+            <div className="logo-footer" />
           </div>
           <div className="info">
             <div className="address-container">

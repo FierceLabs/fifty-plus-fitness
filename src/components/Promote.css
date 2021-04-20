@@ -32,4 +32,26 @@
 .promote-content {
   width: 100%;
   flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .promote-image-container {
+    display: none;
+  }
+  .promote-content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .promote {
+    padding: 40px 20px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .promote-content {
+    padding: 0;
+  }
 }

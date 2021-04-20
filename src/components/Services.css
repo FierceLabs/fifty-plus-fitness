@@ -14,6 +14,34 @@ h2.services-title {
   grid-row-gap: 60px;
 }
 
+@media (max-width: 1200px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+  }
+  .services-content {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 60px;
+  }
+}
+
 .img {
   display: flex;
   justify-content: center;

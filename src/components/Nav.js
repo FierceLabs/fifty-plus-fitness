@@ -112,6 +112,14 @@ export class Navigation extends Component {
             {/* <NavLink to="/default/">Default</NavLink> */}
             <NavLink to="/contact/">CONTACT</NavLink>
           </div>
+          <div className="call-button">
+            <span>
+              Call Us: <br />
+              <a className="telephone" href="tel:2085467001">
+                (208) 546-7001
+              </a>
+            </span>
+          </div>
           <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}
