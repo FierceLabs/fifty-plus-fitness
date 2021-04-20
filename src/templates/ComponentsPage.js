@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
+import './ComponentPage.css'
 // import Accordion from '../components/Accordion'
 // import BackgroundVideo from '../components/BackgroundVideo'
 // import Gallery from '../components/Gallery'
@@ -23,7 +24,7 @@ export const ComponentsPageTemplate = ({
       backgroundImage={featuredImage}
     />
     <section className="section">
-      <div className="container">
+      <div className="container about">
         <Content source={section1} />
       </div>
     </section>
