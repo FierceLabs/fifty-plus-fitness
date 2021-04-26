@@ -111,6 +111,13 @@ export class Navigation extends Component {
             </div> */}
             {/* <NavLink to="/default/">Default</NavLink> */}
             <NavLink to="/contact/">CONTACT</NavLink>
+            <a
+              href="https://www.facebook.com/50Fitness-438278473220028/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img alt="Facebook Icon" height="25px" src="/images/fb.png" />
+            </a>
           </div>
           <div className="call-button">
             <span>
