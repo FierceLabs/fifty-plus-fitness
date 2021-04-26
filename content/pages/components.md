@@ -36,13 +36,16 @@ section1: >-
 
 
   Located in the heart of Nampa, 50+Fitness is a gym dedicated to giving seniors a private, expert, and tailored training session. Because of the Covid virus, Jereme also does fitness training through video conferencing so you can get instruction from the comfort of your own home and stay safe.
-section2: "## Blah"
+section2: placeholder
 video: https://ucarecdn.com/c243f18f-684f-41f8-958f-4f63e0f18c78/
 videoPoster: https://ucarecdn.com/c494b776-60c7-48c5-9313-ec24a53d9c0e/
-videoTitle: Blah
+videoTitle: placeholder
 accordion: []
 gallery: []
 meta:
-  description: This is a meta description.
+  description: Need to find a gym for elderly fitness training? Live in the Boise,
+    Idaho area? 50+Fitness is your answer. Located in Nampa, Idaho, the gym is
+    run by staff specialized in senior fitness.
   title: About
+  canonicalLink: https://fiftyplusfitnesspro.com/about/
 ---
