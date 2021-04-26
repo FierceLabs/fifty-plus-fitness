@@ -10,7 +10,7 @@ email: example@example.com
 locations: []
 meta:
   description: This is a meta description.
-  title: Contact Page
+  title: Contact
 ---
 
 # Feel Free to Reach Out!
