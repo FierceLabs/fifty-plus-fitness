@@ -44,5 +44,5 @@ accordion: []
 gallery: []
 meta:
   description: This is a meta description.
-  title: About Page
+  title: About
 ---
