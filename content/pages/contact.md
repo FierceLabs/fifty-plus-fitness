@@ -9,8 +9,11 @@ phone: 208-546-7001
 email: example@example.com
 locations: []
 meta:
-  description: This is a meta description.
+  description: Need to make a change in your life regarding fitness as you've aged
+    past 50? 50+Fitness is a gym in Nampa, Idaho specializing in senior health
+    and fitness. Get a free consultation now!
   title: Contact
+  canonicalLink: https://fiftyplusfitnesspro.com/contact/
 ---
 
 # Feel Free to Reach Out!
