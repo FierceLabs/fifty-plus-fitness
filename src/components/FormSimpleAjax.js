@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
-import { stringify } from 'qs'
+// import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
 import './Form.css'
@@ -25,17 +25,18 @@ class Form extends React.Component {
     if (this.state.disabled) return
 
     const form = e.target
+    const data = serialize(form)
 
     this.setState({ disabled: true })
 
     const body = {
-      clientEmail: 'jared@nelsonenterprises.co',
-      clientName: 'Nelson At The Helm',
-      userEmail: form.emailAddress,
-      userName: form.firstname + form.lastname,
+      clientEmail: 'fiftyfitnessgym@gmail.com',
+      clientName: 'Jereme at 50+Fitness',
+      userEmail: data.emailAddress,
+      userName: data.firstname + ' ' + data.lastname,
       userSubject: this.props.name,
       type: 'message',
-      userMessage: form.message.replace(/\n/g, '<br/>')
+      userMessage: data.message.replace(/\n/g, '<br/>')
     }
 
     try {
@@ -51,6 +52,7 @@ class Form extends React.Component {
       )
 
       if (!response.ok) {
+        console.log(response)
         //not 200 response
         return
       } else {
@@ -60,8 +62,6 @@ class Form extends React.Component {
           disabled: false
         })
       }
-      //all OK
-      navigate('/success')
     } catch (e) {
       console.error(e)
       this.setState({
@@ -77,9 +77,9 @@ class Form extends React.Component {
 
     return (
       <Fragment>
-        <Helmet>
+        {/* <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
-        </Helmet>
+        </Helmet> */}
         <form
           className="Form"
           name={name}
