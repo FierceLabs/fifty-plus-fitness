@@ -14,7 +14,7 @@ const Promote = () => {
           Becoming aware that our bodies are slowing down and we aren't able to
           do the things we used to do is a difficult realization. However, we
           don't have to just accept this as our new fate. We can decide to make
-          a change and take back pour lives. At 50+Fitness, the goal is to
+          a change and take back our lives. At 50+Fitness, the goal is to
           promote health through fitness so our clients can age more gracefully.
           From strength training to fall prevention, the mission is to get more
           out of life in the decades to come.
