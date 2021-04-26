@@ -20,37 +20,56 @@ class Form extends React.Component {
     disabled: false
   }
 
-  handleSubmit = e => {
+  handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
 
     const form = e.target
-    const data = serialize(form)
+
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
-    })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
+
+    const body = {
+      clientEmail: 'jared@nelsonenterprises.co',
+      clientName: 'Nelson At The Helm',
+      userEmail: form.emailAddress,
+      userName: form.firstname + form.lastname,
+      userSubject: this.props.name,
+      type: 'message',
+      userMessage: form.message.replace(/\n/g, '<br/>')
+    }
+
+    try {
+      const response = await fetch(
+        'https://j77237xnyl.execute-api.us-west-2.amazonaws.com/Prod/no-reply-email',
+        {
+          method: 'POST',
+          body: JSON.stringify(body),
+          headers: {
+            'Content-Type': 'application/json'
+          }
         }
-      })
-      .then(() => {
+      )
+
+      if (!response.ok) {
+        //not 200 response
+        return
+      } else {
         form.reset()
         this.setState({
           alert: this.props.successMessage,
           disabled: false
         })
+      }
+      //all OK
+      navigate('/success')
+    } catch (e) {
+      console.error(e)
+      this.setState({
+        disabled: false,
+        alert: this.props.errorMessage
       })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
-      })
+      throw new Error('Network error')
+    }
   }
 
   render() {
@@ -103,21 +122,6 @@ class Form extends React.Component {
               required
             />
             <span>Email address</span>
-          </label>
-          <label className="Form--Label has-arrow">
-            <select
-              className="Form--Input Form--Select"
-              name="type"
-              defaultValue="Type of Enquiry"
-              required
-            >
-              <option disabled hidden>
-                Type of Enquiry
-              </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
-            </select>
           </label>
           <label className="Form--Label">
             <textarea
