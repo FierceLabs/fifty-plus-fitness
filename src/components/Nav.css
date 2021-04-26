@@ -12,7 +12,6 @@
   align-items: center;
   justify-content: space-around;
   height: 10rem;
-  /* background-color: aquamarine; */
 }
 
 .Nav--Links {
@@ -20,11 +19,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  /* background-color: red; */
 }
 
 .Nav--Links > * + * {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .Nav .Logo {
@@ -38,7 +36,6 @@
 
 .NavLink {
   padding: 0.5rem 0.5rem;
-  margin-left: 1rem;
   display: block;
   font-weight: 900;
   transition: color 0.2s, border-bottom-color 0.2s;

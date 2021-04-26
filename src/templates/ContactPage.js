@@ -1,11 +1,11 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin, Smartphone } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
+// import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
@@ -48,11 +48,11 @@ export const ContactPageTemplate = ({
                 <Smartphone /> {phone}
               </a>
             )}
-            {email && (
+            {/* {email && (
               <a className="Contact--Details--Item" href={`mailto:${email}`}>
                 <Mail /> {email}
               </a>
-            )}
+            )} */}
           </div>
         </div>
 
@@ -69,6 +69,7 @@ export const ContactPageTemplate = ({
         style={{ border: 0 }}
         allowfullscreen=""
         loading="lazy"
+        title="map"
       ></iframe>
     </div>
   </main>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { grah3hql } from 'gatsby'
+// import { graphql } from 'gatsby'
 // import Img from 'gatsby-image'
 import './Services.css'
 
