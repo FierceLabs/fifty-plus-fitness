@@ -22,6 +22,7 @@ export const ComponentsPageTemplate = ({
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
+      backgroundPosition="40% 50%"
     />
     <section className="section">
       <div className="container about">

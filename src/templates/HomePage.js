@@ -17,6 +17,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
+      backgroundPosition="25% 25%"
     />
     <section>
       <Promote />

@@ -54,6 +54,7 @@ class Image extends React.Component {
     let {
       background,
       backgroundSize = 'cover',
+      backgroundPosition = 'center',
       resolutions = '1000x',
       className = '',
       src,
@@ -92,12 +93,14 @@ class Image extends React.Component {
         backgroundImage: `url(${
           this.state.isIntersecting ? fullSrc : smallSrc
         })`,
-        backgroundSize
+        backgroundSize,
+        backgroundPosition
       }
     } else {
       style = {
         backgroundImage: `url(${fullSrc})`,
-        backgroundSize
+        backgroundSize,
+        backgroundPosition
       }
     }
 
@@ -110,7 +113,8 @@ class Image extends React.Component {
               ref={this.ref}
               style={{
                 backgroundImage: `url(${smallSrc})`,
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                backgroundPosition
               }}
             >
               {!background && (
