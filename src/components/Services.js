@@ -9,7 +9,7 @@ const Services = () => {
       <div className="services-content">
         <h2 className="services-title">Our Services</h2>
         <p className="disclaimer">
-          At 50PlusFitness, we work on building strength and flexibility. This
+          At 50+Fitness, we work on building strength and flexibility. This
           in turn helps with balance and overall mobility. Also, studies have
           shown that regular fitness training can help with a wide range of
           common issues with aging, including osteoporosis, high blood pressure,
