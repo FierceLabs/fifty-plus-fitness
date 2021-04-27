@@ -30,7 +30,7 @@ class Form extends React.Component {
     this.setState({ disabled: true })
 
     const body = {
-      clientEmail: 'fiftyfitnessgym@gmail.com',
+      clientEmail: 'jrich6044@mail.com',
       clientName: 'Jereme at 50+Fitness',
       userEmail: data.emailAddress,
       userName: data.firstname + ' ' + data.lastname,

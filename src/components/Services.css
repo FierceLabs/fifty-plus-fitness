@@ -7,6 +7,12 @@ h2.services-title {
   margin-bottom: 60px;
 }
 
+.disclaimer {
+  padding: 0 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -36,6 +42,11 @@ h2.services-title {
 }
 
 @media (max-width: 600px) {
+  .disclaimer {
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
   .services-grid {
     grid-template-columns: 1fr;
     grid-row-gap: 60px;
